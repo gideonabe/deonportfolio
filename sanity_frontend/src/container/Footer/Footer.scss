@@ -128,3 +128,53 @@
     margin: 1rem 0;
   }
 }
+
+.app__footer-socials {
+  display: none; // Hide by default
+}
+
+.app__footer-copyright {
+  p{
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 500px){
+  
+  .app__footer-socials {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  
+    a {
+      color: #000;
+      font-size: 24px;
+      transition: color 0.3s;
+  
+      &:hover {
+        color: #007bff;
+        // font-size: 25px;
+      }
+    }
+  }
+  
+  .app__footer-copyright {
+    display: flex;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+
+    p{
+      font-size: 15px;
+    }
+  }
+}
+
+
+
+
+
+

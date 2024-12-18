@@ -46,7 +46,7 @@
   align-items: flex-end;
 
   p {
-    text-transform: uppercase;
+    // text-transform: uppercase;
     color: var(--black-color);
   }
 }
@@ -186,6 +186,7 @@
   .copyright {
     padding: 2rem;
   }
+
 }
 
 // @media screen and (max-width: 800px) {

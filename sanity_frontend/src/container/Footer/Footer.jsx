@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 
 import { images } from '../../constants';
 import { AppWrap, MotionWrap } from '../../wrapper';
+import { BsTwitter, BsInstagram, BsWhatsapp, BsLinkedin } from 'react-icons/bs'
+import { FaFacebookF } from 'react-icons/fa'
+
 import { client } from '../../client';
 import './Footer.scss';
 
@@ -117,6 +120,25 @@ const Footer = () => {
           </h3>
         </div>
       )}
+
+      <div className="app__footer-socials">
+        <a href="https://x.com/gideon_abe?t=nwfNFiDlVlbbyesdAb8QUA&s=09" target="_blank" rel="noopener noreferrer"><BsTwitter /></a>
+
+        <a href="https://wa.me/qr/VC223KV77QNAM1" target="_blank" rel="noopener noreferrer"><BsWhatsapp /></a>
+
+        
+        <a href="https://www.linkedin.com/in/gideon-abe-79b6ab341?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer"><BsLinkedin /></a>
+
+        <a href="https://www.facebook.com/abe.ayokunle.9" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
+
+        <a href="https://www.instagram.com/gideon__abe?utm_source=qr&igsh=MTRqMGJsdDBpbmF1Ng==" target="_blank" rel="noopener noreferrer"><BsInstagram /></a>
+
+      </div>
+
+      {/* Copyright Section */}
+      <div className="app__footer-copyright">
+        <p className="p-text">© {new Date().getFullYear()} Deon. All rights reserved.</p>
+      </div>
     </>
   );
 };
