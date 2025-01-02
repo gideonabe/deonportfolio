@@ -1,0 +1,3 @@
+[submodule "sanity_backend"]
+  path = sanity_backend
+  url = https://github.com/gideonabe/deonportfolio.git
