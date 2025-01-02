@@ -41,6 +41,7 @@ import ektours from '../assets/ektours.png'
 import telectricals from '../assets/telectricals.png'
 import moviesearch from '../assets/moviesearch.png'
 import shareme from '../assets/shareme.png'
+import deonstores from '../assets/deonstores.png'
 
 export default {
   email,
@@ -83,4 +84,5 @@ export default {
   telectricals,
   moviesearch,
   shareme,
+  deonstores,
 };

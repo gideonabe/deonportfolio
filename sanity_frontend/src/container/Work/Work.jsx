@@ -12,6 +12,8 @@ const Work = () => {
   const data = [
     { title: 'ShareMe', imgUrl: images.shareme, projectLink: 'https://deonshare-me.netlify.app/', codeLink: '', description: 'A social media web application that displays Quality pictures of different categories where users can like, save, upload and download pictures', tags: 'React JS', name: 'ShareMe Web App' },
 
+    { title: 'DEON Stores', imgUrl: images.deonstores, projectLink: 'https://deonstores.netlify.app/', codeLink: '', description: 'An e-commerce website that is integrated with Stripe as a payment gateway', tags: 'Web App', name: 'DEON Stores Web App' },
+
     { title: 'Flixx Movie App', imgUrl: images.flixx, projectLink: 'https://flixx-movieapp.netlify.app/', codeLink: '', description: 'A movie web application that displays latest movies and shows', tags: 'Web App', name: 'Flixx Movie App' },
 
     { title: 'Music Player', imgUrl: images.musicplayer, projectLink: 'https://deonmusicplayer.netlify.app/', codeLink: '', description: 'A Boomplayer clone that plays limited number of songs', tags: 'Web App', name: 'Music Player' },
